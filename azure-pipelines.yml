@@ -18,9 +18,10 @@ steps:
 - script: |
         npm install
         npm run build
+        
       displayName: 'npm install, build'
 
 - script: |
-    npm run test
+    npm test
   displayName: 'npm run test'
   
